@@ -34,6 +34,7 @@ code, markup and prose".
     + Follow the tutorials: [installation](https://www.postgresqltutorial.com/install-postgresql/) and [connection](https://www.postgresqltutorial.com/connect-to-postgresql-database/)
     + Download the latest version of Postgres from [EDB](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads), which includes: PostgresSQL Server, pgAdmin 4, Stack Builder, Command Line Tools
         + OR, Mac users may want to use [Homebrew](https://wiki.postgresql.org/wiki/Homebrew) for installation.
+            + The piazza page for this course contains a simple HOWTO for installing postgres using this method.
         + OR, another Mac alternative is to download [Postgres App](https://postgresapp.com/)
     + Confirm success: 
         + For EDB, by opening SQL Shell (psql), and entering: `SELECT version();`
